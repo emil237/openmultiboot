@@ -92,7 +92,7 @@ if [ "$OS" == "e2OS" ]; then
 			dVER="v1.3"
 			dREV="r45"
 			dOMB="omb-enhanced_"$dVER"_e2turk-$dREV.tar.gz"
-			dURL="https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/TAR/$dOMB"
+			dURL="https://raw.githubusercontent.com/emil237/openmultiboot/main/$dOMB"
 			wget -q "--no-check-certificate" "$dURL" -O "/tmp/$dOMB"
 			tar -zxf /tmp/$dOMB -C / --no-same-permissions
 			rm -rf /tmp/$dOMB
